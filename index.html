@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<style>
+    .background_color{
+        background-color: blue;
+    }
+    .center{
+        display: inline;
+        margin: auto;
+        text-align:center;
+    }
+    #google_image{
+        display: block;
+        scale: 50%;
+        height: 92px;
+        width: 272px;
+    }
+    #search{
+        margin: auto;
+        border: 1px solid black;
+        border-radius: 24px;
+        display: flex;
+        justify-content: center;
+        width: 460px;
+    }
+    h2{
+        display:inline;
+        font-size: 13px;
+        font-weight: normal;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .search-icon{
+        margin: 0;
+        padding: 0;
+        width: 25px;
+        height: 30px;
+    }
+    .mic-icon{
+        margin: 1px;
+        padding: 1px;
+        width: 17.5px;
+        height: 30px;
+    }
+    .search-form{
+        margin: 0;
+        padding: 0;
+        width: 400px;
+        height: 25px;
+        border: none;
+        outline: none;
+    }
+    .nav-bar{
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+    .left_nav{
+        float: left;
+    }
+    .right_nav{
+        float: right;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+    .outer-margin{
+        margin-top: 200px;
+    }
+</style>
+<html>
+    <head>
+        <title>Google</title>
+    </head>
+    <body>
+        <div class="nav-bar">
+            <div class= "left_nav">            
+                <h2>About</h2>
+                <h2>Store</h2>
+            </div>
+            <div class="right_nav">
+                <h2>Gmail</h2>
+                <h2>Images</h2>
+            </div>
+        </div>
+        <div class="outer-margin">
+            <div class="center">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" id= "google_image" class="center">
+            </div>
+            <div id="search">
+                <img class="search-icon" src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon-by-vexels.png">
+                <form action = "" >
+                    <input class="search-form" type="text" placeholder= "">
+                </form>
+                <img class="mic-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png">
+            </div>
+            <div class="buttons">
+                <button type="submit">Google Search</button>
+                <button type="submit">I'm Feeling Lucky</button>
+            </div>
+        </div>
+    </body>
+</html>
